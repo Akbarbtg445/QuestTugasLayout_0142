@@ -130,4 +130,29 @@ fun StudentCardWidget(
                     fontFamily = if (isCursiveFont) FontFamily.Cursive else FontFamily.Default,
                     fontWeight = if (isCursiveFont) FontWeight.Normal else FontWeight.Bold
                 )
+                if (phoneRes != null) {
+                    Text(
+                        text = stringResource(id = phoneRes),
+                        color = colorResource(id = R.color.text_cyan),
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Medium
+                    )
+                }
+
+
+                Text(
+                    text = stringResource(id = locationRes),
+                    color = colorResource(id = R.color.text_yellow),
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.cd_logo),
+                modifier = Modifier.size(50.dp)
+            )
+        }
+    }
+}
 
