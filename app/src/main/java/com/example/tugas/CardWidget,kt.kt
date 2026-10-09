@@ -32,3 +32,9 @@ fun UmyAppScreen() {
             .padding(top = 48.dp, bottom = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            text = stringResource(id = R.string.header_title),
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.text_black)
+    }
