@@ -67,5 +67,11 @@ fun UmyAppScreen() {
                 locationRes = R.string.lokasi_siswa_2,
                 bgColorRes = R.color.card_purple
             )
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_3,
+                phoneRes = R.string.no_hp_siswa_3,
+                locationRes = R.string.lokasi_siswa_3,
+                bgColorRes = R.color.card_blue
+            )
         }
     }
