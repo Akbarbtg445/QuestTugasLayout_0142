@@ -80,4 +80,11 @@ fun UmyAppScreen() {
                 bgColorRes = R.color.card_green
             )
         }
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(
+            text = stringResource(id = R.string.footer_text),
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.text_gray)
+        )
     }
+}
