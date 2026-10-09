@@ -46,4 +46,12 @@ fun UmyAppScreen() {
         )
 
         Spacer(modifier = Modifier.height(24.dp))
+
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .padding(horizontal = 16.dp)
+                .verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
     }
