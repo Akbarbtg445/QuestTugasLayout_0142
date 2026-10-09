@@ -54,4 +54,12 @@ fun UmyAppScreen() {
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_1,
+                phoneRes = null,
+                locationRes = R.string.lokasi_siswa_1,
+                bgColorRes = R.color.card_gray,
+                isCursiveFont = true
+            )
+        }
     }
