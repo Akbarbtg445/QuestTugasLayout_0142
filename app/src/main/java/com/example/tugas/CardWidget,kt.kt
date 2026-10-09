@@ -37,4 +37,13 @@ fun UmyAppScreen() {
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
             color = colorResource(id = R.color.text_black)
+        )
+        Text(
+            text = stringResource(id = R.string.header_subtitle),
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.text_dark_gray)
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
     }
