@@ -61,5 +61,11 @@ fun UmyAppScreen() {
                 bgColorRes = R.color.card_gray,
                 isCursiveFont = true
             )
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_2,
+                phoneRes = R.string.no_hp_siswa_2,
+                locationRes = R.string.lokasi_siswa_2,
+                bgColorRes = R.color.card_purple
+            )
         }
     }
